@@ -1,0 +1,39 @@
+body{
+  background: black;
+  height: 100vb;
+  display: grid;
+ place-items: center;
+ margin: 0 auto;
+  
+}
+
+*{
+  color:white;
+}
+
+h3{
+  place-items: right;
+}
+
+
+.btn{
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	text-decoration: none;
+ 
+}
+
+.overlay{
+width: 70%;
+	height: 70%;
+	padding: 50px;
+	color: black;
+	text-shadow: 1px 1px 1px mediumpurple;
+  background-image: linear-gradient( 100deg, rebeccapurple 10%, #fd5e086b 100%);
+}
